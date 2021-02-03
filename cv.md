@@ -30,3 +30,11 @@ function Check(num, length) {
 ### **Language skills *(English)*:**
 Good reading and translating ability.  
 According to [quick check](https://www.efset.org/ru/free-english-test/) the result is 87% (C2-C1). To my mind it is A2.
+
+## **Education:**
+There is no in web development. Self-education was my way.  
+In other field: 
+  1. Bachelor's degree *(2012 - 2016)*  
+    Don State Technical University - Land management and cadaster
+  2. Magister's degree *(2016 - 2018)*  
+    Don State Technical University - Land management and cadaster
