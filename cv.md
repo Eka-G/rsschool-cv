@@ -38,3 +38,9 @@ In other field:
     Don State Technical University - Land management and cadaster
   2. Magister's degree *(2016 - 2018)*  
     Don State Technical University - Land management and cadaster
+
+---
+## **Portfolio:**
+* [section "product comparison"](https://eka-g.github.io/product_comparison/)
+* [landing "Covid"](https://eka-g.github.io/Covid/)
+* [landing "Storage"](https://eka-g.github.io/landing-storage/)
