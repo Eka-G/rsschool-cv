@@ -21,10 +21,21 @@ h1 {
   text-transform: uppercase;
 }
 
+a:hover {
+  color: #8df5dc;
+}
+
+.title-h2 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 30px;
+}
+
 .container {
   margin: 0 auto;
   width: 1200px;
 }
+
+/* __________________________________ */
 
 .container--header {
   position: relative;
@@ -51,3 +62,67 @@ h1 {
   text-align: right;
   background-color: #d7d9f1;
 }
+
+/* __________________________________ */
+
+.aside {
+  padding-top: 40px;
+  padding-left: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 25px;
+  line-height: 170%;
+  background-color: #95a7ca;
+  overflow: hidden;
+}
+
+.profile {
+  margin-bottom: 40px;
+}
+
+.profile__info {
+  padding: 0;
+}
+
+.profile__info li,
+.goals__list li,
+.contacts__list li {
+  padding: 0;
+  list-style: none;
+}
+
+.goals {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.goals__title,
+.contacts__title {
+  position: relative;
+  display: inline;
+}
+
+.goals__title::after,
+.contacts__title::after  {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 500px;
+  height: 1px;
+  content: "";
+  background-color: #3a3c43;
+}
+
+.goals__list li::before,
+.contacts__list li::before {
+  margin-right: 10px;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
