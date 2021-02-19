@@ -2,6 +2,7 @@ body {
   font-family: "Exo", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 150%;
   color: #3a3c43;
 }
 
@@ -16,6 +17,7 @@ h6 {
 }
 
 h1 {
+  margin-bottom: 20px;
   font-family: "Source Serif Pro", serif;
   font-size: 50px;
   text-transform: uppercase;
@@ -55,7 +57,11 @@ a:hover {
   border-left: 250px solid transparent;
   border-right: 250px solid transparent;
   border-top: 200px solid #d7d9f1;
-  z-index: 0;
+  z-index: -1;
+}
+
+.container--content {
+  display: flex;
 }
 
 .header {
@@ -67,15 +73,16 @@ a:hover {
 
 .aside {
   padding-top: 40px;
-  padding-left: 65px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 500px;
+  max-width: 500px;
   font-size: 25px;
   line-height: 170%;
   background-color: #95a7ca;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .profile {
@@ -104,7 +111,7 @@ a:hover {
   display: inline;
 }
 
-.goals__title::after,
+/* .goals__title::after,
 .contacts__title::after  {
   position: absolute;
   top: 35px;
@@ -113,7 +120,7 @@ a:hover {
   height: 1px;
   content: "";
   background-color: #3a3c43;
-}
+} */
 
 .goals__list li::before,
 .contacts__list li::before {
@@ -124,5 +131,12 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
+
+/* __________________________________ */
+
+main {
+  padding: 60px;
+}
+
 
 
