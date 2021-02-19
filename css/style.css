@@ -190,5 +190,19 @@ main section {
   max-width: 430px;
 }
 
+/* __________________________________ */
+
+.education {
+  padding-bottom: 80px;
+  margin: auto;
+  max-width: 550px;
+  border-bottom: 1px solid #3a3c43;
+}
+
+.education__title, 
+.education__text {
+  margin-bottom: 35px;
+  text-align: center;
+}
 
 
