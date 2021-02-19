@@ -251,3 +251,38 @@ main section {
 .portfolio__caption:hover {
   color: #95a7ca;
 }
+
+/* __________________________________ */
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  background-color: #95a7ca;
+}
+
+.container--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+}
+
+.footer__text {
+  margin-right: 30px;
+}
+
+.footer__github {
+  margin-right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__rsschool {
+  height: 30px;
+}
