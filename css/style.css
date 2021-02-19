@@ -32,9 +32,14 @@ a:hover {
   font-size: 30px;
 }
 
+.title-h3 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 22px;
+}
+
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 1400px;
 }
 
 /* __________________________________ */
@@ -136,6 +141,53 @@ a:hover {
 
 main {
   padding: 60px;
+}
+
+main section {
+  margin-bottom: 80px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a3c43;
+}
+
+.skills__item {
+  margin-bottom: 50px;
+}
+
+.skills__title {
+  margin-bottom: 40px;
+}
+
+.skills__list li {
+  list-style-type: none;
+}
+
+.skills__code-example {
+  padding: 20px;
+  max-width: 430px;
+  background-color: #e8f3f5;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.skills__lan-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.skills__lan-link:hover {
+  color: #95a7ca;
+}
+
+.skills_lan-text {
+  max-width: 430px;
 }
 
 
